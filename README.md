@@ -106,12 +106,17 @@ Uses low-cost hardware accessible to farmers
 <img src="screenshots/Ground_truth_visible_100.png" alt="Predicted Out Put" width="100%"/>
 <p><b>🌡️ OUT PUT</b></p>
 </td>
-<td width="33%">
-<img src="screenshots/Ground_truth_visible_100.png" alt="Predicted Out Put" width="100%"/>
-<p><b>🌡️ OUT PUT</b></p>
-</td>    
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="100%">
+<img src="screenshots/hardware_setup.jpg" alt="Hardware Setup" width="100%"/>
+<p><b>Real Time Input and OUT PUT</p>
+</td>
+</tr>
+</table>   
 
 </div>
 
