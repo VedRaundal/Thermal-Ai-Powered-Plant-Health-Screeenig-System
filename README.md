@@ -96,16 +96,20 @@ Uses low-cost hardware accessible to farmers
 <tr>
 <td width="33%">
 <img src="screenshots/visible_100.png" alt="RGB" width="100%"/>
-<p><b>✅ Healthy Leaf (RGB)</b></p>
+<p><b>✅ RGB </b></p>
 </td>
 <td width="33%">
 <img src="screenshots/termal_100.png" alt="Thermal" width="100%"/>
-<p><b>⚠️ Diseased Leaf (RGB)</b></p>
+<p><b>⚠️ Thermal </b></p>
 </td>
 <td width="33%">
-<img src="screenshots/termal_1.png" alt="Predicted Out Put" width="100%"/>
-<p><b>🌡️ Thermal Heat Map</b></p>
+<img src="screenshots/Ground_truth_visible_100.png" alt="Predicted Out Put" width="100%"/>
+<p><b>🌡️ OUT PUT</b></p>
 </td>
+<td width="33%">
+<img src="screenshots/Ground_truth_visible_100.png" alt="Predicted Out Put" width="100%"/>
+<p><b>🌡️ OUT PUT</b></p>
+</td>    
 </tr>
 </table>
 
