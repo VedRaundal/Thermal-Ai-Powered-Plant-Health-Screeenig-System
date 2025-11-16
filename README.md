@@ -124,31 +124,14 @@ Uses low-cost hardware accessible to farmers
 
 <div align="center">
 
-<img src="screenshots/training_accuracy.png" alt="Training Accuracy" width="45%"/>
-<img src="screenshots/training_loss.png" alt="Training Loss" width="45%"/>
+<img src="screenshots/Cnn Model Traning.png" alt="Training Accuracy" width="45%"/>
+
 
 <p><b>Model Training Performance</b> - Accuracy and Loss over 40 epochs</p>
 
 </div>
 
-### STM32 Deployment
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-<img src="screenshots/stm32cube_ai.png" alt="STM32Cube.AI" width="100%"/>
-<p><b>🔧 STM32Cube.AI Model Analysis</b><br/>Model optimization and memory footprint analysis</p>
-</td>
-<td width="50%">
-<img src="screenshots/inference_demo.gif" alt="Live Inference" width="100%"/>
-<p><b>⚡ Live Inference Demo</b><br/>Real-time detection in action (~150ms per frame)</p>
-</td>
-</tr>
-</table>
-
-</div>
 
 ## 🎨 How It Works
 ```mermaid
