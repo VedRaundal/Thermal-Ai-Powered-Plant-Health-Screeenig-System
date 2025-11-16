@@ -112,7 +112,7 @@ Uses low-cost hardware accessible to farmers
 <table>
 <tr>
 <td width="100%">
-<img src="screenshots/hardware_setup.jpg" alt="Hardware Setup" width="100%"/>
+<img src="screenshots/Real Time Input and Out Put.jpeg" alt="Hardware Setup" width="100%"/>
 <p><b>Real Time Input and OUT PUT</p>
 </td>
 </tr>
