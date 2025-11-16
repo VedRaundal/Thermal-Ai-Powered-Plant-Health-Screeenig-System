@@ -99,7 +99,7 @@ Uses low-cost hardware accessible to farmers
 <p><b>✅ Healthy Leaf (RGB)</b></p>
 </td>
 <td width="33%">
-<img src="screenshots/rgb_diseased.jpg" alt="Thermal" width="100%"/>
+<img src="screenshots/termal_100.png" alt="Thermal" width="100%"/>
 <p><b>⚠️ Diseased Leaf (RGB)</b></p>
 </td>
 <td width="33%">
