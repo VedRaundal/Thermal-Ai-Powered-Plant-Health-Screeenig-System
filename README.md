@@ -12,7 +12,7 @@
 
 **Real-time plant disease detection using RGB + Thermal imaging on embedded hardware**
 
-[Features](#-features) • [How It Works](#-how-it-works) • [Performance](#-performance) • [Get Started](#-getting-started) • [Deploy to STM32](#-deploying-to-stm32) • [Team](#-team)
+[Features](#-features) • [Screenshots](#-screenshots) • [How It Works](#-how-it-works) • [Performance](#-performance) • [Deploy to STM32](#-deploying-to-stm32) • [Team](#-team)
 
 ---
 
@@ -66,6 +66,80 @@ Uses low-cost hardware accessible to farmers
 </td>
 </tr>
 </table>
+
+## 📸 Screenshots
+
+### System in Action
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/hardware_setup.jpg" alt="Hardware Setup" width="100%"/>
+<p><b>🔧 Complete Hardware Setup</b><br/>STM32H747I-DISCO with RGB camera and thermal sensor</p>
+</td>
+<td width="50%">
+<img src="screenshots/lcd_display.jpg" alt="LCD Display" width="100%"/>
+<p><b>📺 Real-time Detection Display</b><br/>Live results showing disease classification with confidence</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+### Sample Dataset
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%">
+<img src="screenshots/rgb_healthy.jpg" alt="RGB Healthy" width="100%"/>
+<p><b>✅ Healthy Leaf (RGB)</b></p>
+</td>
+<td width="33%">
+<img src="screenshots/rgb_diseased.jpg" alt="RGB Diseased" width="100%"/>
+<p><b>⚠️ Diseased Leaf (RGB)</b></p>
+</td>
+<td width="33%">
+<img src="screenshots/thermal_overlay.jpg" alt="Thermal Overlay" width="100%"/>
+<p><b>🌡️ Thermal Heat Map</b></p>
+</td>
+</tr>
+</table>
+
+</div>
+
+### Training Results
+
+<div align="center">
+
+<img src="screenshots/training_accuracy.png" alt="Training Accuracy" width="45%"/>
+<img src="screenshots/training_loss.png" alt="Training Loss" width="45%"/>
+
+<p><b>Model Training Performance</b> - Accuracy and Loss over 40 epochs</p>
+
+</div>
+
+### STM32 Deployment
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/stm32cube_ai.png" alt="STM32Cube.AI" width="100%"/>
+<p><b>🔧 STM32Cube.AI Model Analysis</b><br/>Model optimization and memory footprint analysis</p>
+</td>
+<td width="50%">
+<img src="screenshots/inference_demo.gif" alt="Live Inference" width="100%"/>
+<p><b>⚡ Live Inference Demo</b><br/>Real-time detection in action (~150ms per frame)</p>
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 🎨 How It Works
 ```mermaid
@@ -209,6 +283,11 @@ python convert_to_tflite.py
 ├── 📂 dataset
 │   ├── 📸 rgb_images/
 │   └── 🌡️ thermal_images/
+├── 📂 screenshots                      # Project screenshots
+│   ├── hardware_setup.jpg
+│   ├── lcd_display.jpg
+│   ├── training_accuracy.png
+│   └── ...
 ├── 📂 deployment
 │   └── 🔧 stm32_inference/
 └── 📂 docs
